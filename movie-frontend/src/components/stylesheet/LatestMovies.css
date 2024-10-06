@@ -1,0 +1,33 @@
+.movies{
+    display: flex;
+    flex-direction: column;
+    height: 100rem;
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+
+ 
+}
+.LatestMovieHeading{
+    text-align: center;
+    color: white;
+}
+.movie-card{
+    display: grid;
+  grid-template-columns: auto auto auto auto; 
+  row-gap: 20px;
+    height: 25rem;
+    width: 25rem;
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+    left: 12%;
+}
+.image-card{
+    display: flex;
+    align-items: center;
+    height: 17rem;
+    width: 15rem;
+    margin: 20px;
+    border-radius: 8px;
+}

@@ -1,0 +1,121 @@
+body{
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+/* Page container to hold both background and content */
+#page-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    z-index: -1;
+    opacity: 0.5;
+    /* Ensures background is behind the content */
+}
+
+.mainpage {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+    /* Ensure text is readable on blurred background */
+}
+
+.title {
+    font-size: 37px;
+    line-height: 44px;
+    letter-spacing: 2px;
+}
+.tagline{
+    color: gray;
+    font-size: 20px;
+}
+.overview{
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 1px;
+}
+
+.m-overview{
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.movie-content {
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    height: 38rem;
+    width: 90%;
+    align-items: center;
+}
+
+.content-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    
+}
+.f-row{
+    display: flex;
+    gap: 3rem;
+    height: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    margin: 0.5rem;
+}
+.progressBar{
+    width: 5rem;
+    justify-content: flex-start;
+    display: flex;
+    position: relative;
+    margin: 11px;
+}
+
+span{
+    color: gray;
+}
+
+
+.fimg {
+    max-width: 350px;
+    border-radius: 12px;
+}
+.video-container {
+    margin-top: 20px;
+}
+.t-button{
+    font-size: 20px;
+    background-color: #1c4b91;
+    padding: 14px 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 20rem;
+}
+.t-button:hover{
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.main-button{
+    display: flex;
+    justify-content: center;
+}

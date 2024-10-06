@@ -1,0 +1,153 @@
+body {
+    background-color: #173d77;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #173d77;
+}
+.heading-navbar{
+    /* position: fixed;
+    margin-top: -21rem; */
+    z-index: 2;
+    background: rgba(0, 0, 0, .25);
+    backdrop-filter: blur(3.5px);
+}
+.navbar {
+    display: flex;
+    background-color: #04152d;
+    justify-content: center;
+    margin: auto;
+    height: 4rem;
+    width: 92rem;
+    border-radius: 7px;
+
+}
+
+.logo {
+    height: 14rem;
+    width: 10rem;
+    margin-top: -4rem;
+    margin-right: 30rem;
+}
+
+.selectbutton {
+    color: white;
+    background-color: #173d77;
+    border: 1px solid #000;
+    height: 36px;
+    width: 188px;
+    text-align: center;
+    margin-right: 1rem;
+    margin-top: 12px;
+    border-radius: 12px;
+    font-size: 17px
+}
+
+.s-genre {
+    position: relative;
+    color: white;
+    font-size: 12px;
+    width: 70rem;
+    display: flex;
+    justify-content: left;
+    margin: auto;
+}
+
+.moviesfeild {
+    display: flex;
+    background-color: #173d77;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    width: 70rem;
+}
+
+.moviess {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    /* align-items: center;
+    justify-content: center; */
+
+
+}
+
+.s-movie-card {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 20px;
+    height: 25rem;
+    width: 25rem;
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+    left: 10%;
+}
+
+.s-image-card {
+    display: flex;
+    align-items: center;
+    height: 20rem;
+    width: 15rem;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 110%;
+}
+
+a:hover {
+    color: rgb(75, 246, 60);
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.s-latest {
+    display: flex;
+    left: 6%;
+}
+
+/* */
+.search-container {
+    float: right;
+    margin-top: 5px;
+}
+
+.search-img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    float: right;
+}
+
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background: #ccc;
+}
+
